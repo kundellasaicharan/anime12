@@ -1,0 +1,124 @@
+body{margin: 0 auto;padding: 0 auto;}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.header{float:left;text-align:center;width:100%;
+color:white;position:fixed;background-color: rgb(0, 0, 0);}
+.menu li{text-transform:uppercase;display:inline;color:white;
+  text-align:center;
+  margin:1em 1em 1em 1em;
+  font-weight:100}
+.herosection {float:left;text-align:center;color:white;width:100%;}
+.herosection h2{text-transform:lowercase;width:100%;
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+font-size:150px;}
+.herosection p{text-transform:lowercase;
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.herosction button{float:right;text-align:right;}
+
+     	
+.header_combined{float:left;width:100%;
+background-image:url('../images/anime13.jpg');
+background-size:100% 150%;
+background-repeat:no-repeat;}
+
+.special_section{float:left;width:100%;}
+.top_animes h3{float:right;text-align:center;width:100%}
+
+.special_section h3{text-transform:uppercase;color:black;text-align:center;font-size:30px;
+}
+.one_piece{float:left;width:33.3%;text-align:center;}
+.one_piece h4{color:black;font-size:18px;font-weight:400; text-transform:uppercase;}
+.dragon_ball {float:left;width:33.3%;text-align:center;}
+.dragon_ball h4{color:black;font-size:18px;font-weight:400;text-transform:uppercase;}
+.naruto{float:left;width:33.3%;text-align:center;}
+.naruto h4{color:black;font-size:18px;font-weight:400;text-transform:uppercase;}
+
+.story_session{float:left;width:100%;}
+.story_session_part1{float:left;width:50%;}
+.story_session_part1 img{width:70%;height:50%}
+
+.story_session_part2{float:right;width:50%}
+.story_session_part2 h4{text-align:center;color:black;font-size:80px;font-weight:400;text-transform:uppercase;}
+.story_session_part2 P{font-family:"oswald", sans-serif;
+font-size:18px;font-weight:weight;}
+.loaction{float:left;width:100%}
+
+.footer{float:left;width:100%;font-size:15px;
+text-transform:uppercase;text-align:center;
+font-family:"oswald", sans-serif;}
+
+.socialmedia li{display:inline;}
+
+.accordion1 h2{float:middle;text-align:center;
+text-transform: uppercase;}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
